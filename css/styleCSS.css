@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Moon+Dance&family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Moon+Dance&family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Moon+Dance&family=Rowdies:wght@700&family=Rubik:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Moon+Dance&family=Rowdies:wght@700&family=Rubik:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Moon+Dance&family=Rowdies:wght@700&family=Rubik:ital,wght@1,900&display=swap');
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:#921a1b;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+header{
+    width: 1920px;
+    height: 130px;
+    padding: 20px 0;
+    background-color: rgb(224, 219, 181);
+
+}
+.logo{
+    width: 50%;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
+}
+.menu a{
+        position: relative;
+        display: inline-block;
+        margin: 2rem 1.5rem;
+        transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.menu a:hover{
+    transform: scale(1.25, 1.25);  
+}
+
+
+section.sobre {
+    width: 1920px;
+    height: 400px;
+    background-image: url('../imagens/background1.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 120%;
+    background-color: #000000;
+    align-items: center;
+    justify-content: center;
+}
+section.sobre h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    font-size: 100px;
+    padding: 2%;
+    text-align: center;
+}
+section.sobre h2 {
+    color: white;
+    font-family: 'Moon Dance', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -3%;
+}
+
+section.sobre ul li{
+        width: 300px;
+        height: 100px;
+        background-color: #fff;
+        text-align: center;
+        margin-right: 1px;
+        font-size: 2rem;
+        line-height: 3em;
+}
+section.sobre ul li a {
+    text-decoration: none;
+}
+section.sobre nav ul {
+    display: flex;
+}
+@keyframes bounce {
+    0%, 20%,60%,100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+.btns {
+    text-align: center;
+    margin-top: 50px;
+}
+.efeito {
+    border: none;
+    color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.efeito-mexer{
+    background:#9c0606;
+}
+.efeito-mexer1 {
+    background: #9c0606;
+}
+.efeito-mexer2 {
+    margin-left: 240px;
+    background: #000000;
+}
+.efeito-mexer3 {
+    margin-left: 370px;
+    background: #000000;
+}
+.efeito-mexer4 {
+    margin-left: 380px;
+    background: #000000;
+}
+.efeito-mexer5 {
+    margin-left: 400px;
+    background: #000000;
+}
+.efeito-mexer:hover{
+    animation: bounce 1s;
+}
+.efeito-mexer1:hover {
+    animation: bounce 1s;
+}
+.efeito-mexer2:hover {
+    animation: bounce 1s;
+}
+.efeito-mexer3:hover {
+    animation: bounce 1s;
+}
+.efeito-mexer4:hover {
+    animation: bounce 1s;
+}
+.efeito-mexer5:hover {
+    animation: bounce 1s;
+}
+.terceiro h1{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.terceiro h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.containerTop{
+    display: flex;
+}
+.containerBottom {
+    display: flex;
+}
+.info{
+    display: flex;
+}
+article{
+    background-color: #921a1b
+    
+}
+
+article>.info>div {
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 30px;
+    width: 410px;
+    height: 400px;
+    background-color: #131010
+}
+article>.info>div#n9 h1{
+    font-family: 'Rubik', sans-serif;
+        color: aliceblue;
+        text-align: center;
+        margin-top: 10px;
+     
+}
+article>.info>div#n9 h3 {
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+article>.info>div#n10 h1 {
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+article>.info>div#n10 h3 {
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+
+}
+article>.info>div#n11 h1 {
+font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+article>.info>div#n11 h3 {
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+
+}
+article>.info>div#n12 h1 {
+    font-family: 'Rubik', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+article>.info>div#n12 h3 {
+    font-family: 'Bakbak One', cursive;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+
+}
+article>.containerTop>div {
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 30px;
+    width: 410px;
+    height: 500px;
+    background-color: #0a94ca;
+}
+article>.containerTop>div#n1 {
+    background-image: url('../imagens/believer.jpg');
+}
+article>.containerTop>div#n2 {
+    background-image: url('../imagens/bones.jpg');
+}
+article>.containerTop>div#n3 {
+    background-image: url('../imagens/sharks.jpg');
+}
+article>.containerTop>div#n4 {
+    background-image: url('../imagens/enemy.jpg');
+}
+article>.containerBottom>div {
+    margin-left: 50px;
+    margin-top: 20px;
+    gap: 30px;
+    width: 410px;
+    height: 50px;
+    background-color: #020202;
+}
+article>.containerBottom>div#n5 {
+    background-image: url('../imagens/backBeliever.jpg');
+    
+}
+article>.containerBottom>div#n6 {
+    background-image: url('../imagens/backBones.jpg');
+    
+}
+article>.containerBottom>div#n7 {
+    background-image: url('../imagens/backSharks.jpg');
+  
+}
+article>.containerBottom>div#n8 {
+    background-image: url('../imagens/backEnemy.jpg');
+    
+}
+article>.containerBottom>div#n5 h2{
+    font-family: 'Rowdies', cursive;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
+article>.containerBottom>div#n6 h2 {
+    font-family: 'Rowdies', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+}
+article>.containerBottom>div#n7 h2 {
+    font-family: 'Rowdies', cursive;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 10px;
+}
+article>.containerBottom>div#n8 h2 {
+    font-family: 'Rowdies', cursive;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 10px;
+}
+.containerTop:hover{
+    cursor: pointer;
+}
+
+.composto{
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+    background-image: url("../imagens/wallpaper2.jpg");
+
+}
+section>.composto>div {
+    border-radius: 15%;
+    margin-left: 55px;
+    margin-top: 40px;
+    gap: 30px;
+    width: 310px;
+    height: 200px;
+    background-color: #0a94ca;
+}
+
+
+section>.composto>div#banda1{
+    background-image: url("../imagens/reynolds.jpg");
+}
+section>.composto>div#banda2 {
+    background-image: url("../imagens/batera.jpg");
+}
+section>.composto>div#banda3 {
+   background-image: url("../imagens/wallpaper2pequeno.jpg");
+}
+section>.composto>div#banda3 h1{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+section>.composto>div#banda4 {
+    background-image: url("../imagens/guitarra.jpg");
+}
+section>.composto>div#banda5 {
+    background-image: url("../imagens/ben.jpg");
+}
+form{
+    display: flex;
+}
+.div#cima h1{
+    color: white;
+}
+
