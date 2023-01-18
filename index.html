@@ -8,11 +8,10 @@
     <link href="https://cursos.dankicode.com/app/Views/public/css/font-awesome.min.css">
     <link rel="icon" type="imagem/png" href="/imagens/imagineLOGO.png" />
 </head>
-<body>
-    
+<body> 
     <header>
         <div class="center">
-            <div class="logo"><a href="https://www.imaginedragonsmusic.com/" target="_blank"><img src="imagens/imaginemine.png" /></a></div><!--logo-->
+            <div class="logo"><a href="https://www.imaginedragonsmusic.com/" target="_blank"><img src="imagens/imaginemine.png"/></a></div><!--logo-->
             <div class="menu"><!--icons-->
                 <a href="https://www.facebook.com/ImagineDragons/" target="_blank"><img src="imagens/facebook.png" width="25px"> </a>
                 <a href="https://www.instagram.com/imaginedragons/" target="_blank"><img src="imagens/instagram.png" width="25px"></a>
@@ -21,15 +20,14 @@
             </div><!--menu-->
         </div><!--centro-->
     </header>
-    <section class="sobre"><!--primeira-->
+    <nav class="sobre"><!--primeira-->
         <h1>BEM VINDO</h1>
         <h2>'Cause life is just a mystery,
         And it's gone before you know it,
         So if you love me, won't you show it?</h2>
     <div class="btns">
-        <button type="button" id="tocar" onclick="play()" class="efeito efeito-mexer">Tocar Música</button>
-        <button type="button" id="sla" onclick="pause()" class="efeito efeito-mexer1">| |</button>
-        
+        <button type="button" id="tocar" onclick="play()" class="efeito efeito-mexer" title="Tocar música symphony">Tocar Música</button>
+        <button type="button" id="sla" onclick="pause()" class="efeito efeito-mexer1" title="Pausar">| |</button>
          <script type="text/javascript">  
             function play(){
                 var audio = document.getElementById("imagine");
@@ -80,19 +78,19 @@
         <audio id="imagine5" src="enemy.mp3" type="audio/mpeg">
         </audio>
     </div>
-    </section><!--primeira-->
+</nav><!--primeira-->
 <article class="terceiro">
-    <h1> PRINCIPAIS MUSICAS </h1>
+    <h1> ALGUMAS MUSICAS </h1>
     <h3> CLIQUE NOS BANNERS PARA ESCUTAR </h3>
-    <button type="button" id="sla" onclick="pause1()" class="efeito efeito-mexer2">| |</button>
-    <button type="button" id="sla" onclick="pause2()" class="efeito efeito-mexer3">| |</button>
-    <button type="button" id="sla" onclick="pause3()" class="efeito efeito-mexer4">| |</button>
-    <button type="button" id="sla" onclick="pause4()" class="efeito efeito-mexer5">| |</button>
+    <button type="button" id="sla" onclick="pause1()" class="efeito efeito-mexer2" title="Pausar">| |</button>
+    <button type="button" id="sla" onclick="pause2()" class="efeito efeito-mexer3" title="Pausar">| |</button>
+    <button type="button" id="sla" onclick="pause3()" class="efeito efeito-mexer4" title="Pausar">| |</button>
+    <button type="button" id="sla" onclick="pause4()" class="efeito efeito-mexer5" title="Pausar">| |</button>
     <div class="containerTop">
-        <div onclick="play1()" id="n1"></div>
-        <div onclick="play2()" id="n2"></div>
-        <div onclick="play3()" id="n3"></div>
-        <div onclick="play4()" id="n4"></div>  
+        <div onclick="play1()" id="n1" title="Tocar Believer"></div>
+        <div onclick="play2()" id="n2" title="Tocar Bones"></div>
+        <div onclick="play3()" id="n3" title="Tocar Sharks"></div>
+        <div onclick="play4()" id="n4" title="Tocar Enemy"></div>  
     </div>
     <div class="containerBottom">
         <div id="n5"><h2>BELIEVER</h2></div>
@@ -152,10 +150,51 @@
         </div>
     </div>
 </article>
-<section class="segunda">
+<section class="segunda">     
 <div class="composto"> 
-<div id="banda1"></div><div id="banda2"></div><div id="banda3"><h1> BANDA </h1></div><div id="banda4"></div><div id="banda5"></div>
+<div id="banda1" title="Dan Reynolds"></div><div id="banda2" title="Dan Platzman"></div><div id="banda3"><h1> BANDA </h1></div><div id="banda4" title="Daniel Wayne Sermon"></div><div id="banda5" title="Ben McKee"></div>
 </div>
+<section class="nova"><!--Nova-->
+<div class="box">
+   <div class="form-box">
+    <h2>Envie sua sugestão aqui</h2>
+    <form action="#">
+        <div class="input-group w50">
+            <label for="senha"> Nome</label>
+            <input type="text" id="senha" placeholder="Digite seu nome" required>
+        </div>
+        <div class="input-group w50">
+            <label for="senha"> Email </label>
+            <input type="text" id="Confirmarsenha" placeholder="Digite seu email" required>
+        </div>
+        <div class="input-group">
+            <label for="nome"> Descreva</label>
+            <input type="text" id="nome">
+        </div>
+        <div class="input-group" onclick="alerta()">
+            <button>Enviar</button>
+            <script>
+                function alerta() {
+                    alert("SUA SUGESTÃO FOI ENVIADA")
+                }
+            </script>
+        </div>
+    </form>
+   </div>
+</div>
+</section><!--Nova-->
 </section>
+<footer>
+    <h3>© Jaime</h3>
+    <div class="menu2"><!--icons-->
+        <a href="https://www.facebook.com/ImagineDragons/" target="_blank"><img src="imagens/facebook.png" width="25px">
+        </a>
+        <a href="https://www.instagram.com/imaginedragons/" target="_blank"><img src="imagens/instagram.png"
+                width="25px"></a>
+        <a href="https://twitter.com/imaginedragons" target="_blank"><img src="imagens/twitter.png" width="25px"></a>
+        <a href="https://www.youtube.com/channel/UCT9zcQNlyht7fRlcjmflRSA"target="_blank"><img src="imagens/youTube.png"width="25px"></a>
+       
+    </div><!--menu-->
+</footer>
 </body>
 </html>

@@ -14,7 +14,7 @@
     
 }
 body{
-    background-color:#921a1b;
+    background-color:#be4c4c;
     align-items: center;
     justify-content: center;
 }
@@ -30,11 +30,17 @@ header{
     width: 1920px;
     height: 130px;
     padding: 20px 0;
-    background-color: rgb(224, 219, 181);
+    background-color: #be4c4c;
 
 }
 .logo{
     width: 50%;
+    background-repeat: no-repeat;
+}
+.logo :hover{
+    background-image: url("../imagens/imaginemineBlack.png");
+    background-repeat: no-repeat;
+    transform: scale(1.04, 1.04); 
 }
 .menu{
     display: flex;
@@ -47,6 +53,7 @@ header{
         position: relative;
         display: inline-block;
         margin: 2rem 1.5rem;
+        
         transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
@@ -55,7 +62,7 @@ header{
 }
 
 
-section.sobre {
+nav.sobre {
     width: 1920px;
     height: 400px;
     background-image: url('../imagens/background1.jpg');
@@ -66,14 +73,18 @@ section.sobre {
     align-items: center;
     justify-content: center;
 }
-section.sobre h1{
+.containerTop :hover {
+    transform: scale(1.04, 1.04);
+}
+nav.sobre h1{
     color: rgb(255, 255, 255);
     font-family: 'Anton', sans-serif;
     font-size: 100px;
     padding: 2%;
     text-align: center;
+    
 }
-section.sobre h2 {
+nav.sobre h2 {
     color: white;
     font-family: 'Moon Dance', cursive;
     font-size: 40px;
@@ -81,7 +92,7 @@ section.sobre h2 {
     margin-top: -3%;
 }
 
-section.sobre ul li{
+nav.sobre ul li{
         width: 300px;
         height: 100px;
         background-color: #fff;
@@ -90,10 +101,10 @@ section.sobre ul li{
         font-size: 2rem;
         line-height: 3em;
 }
-section.sobre ul li a {
+nav.sobre ul li a {
     text-decoration: none;
 }
-section.sobre nav ul {
+nav.sobre nav ul {
     display: flex;
 }
 @keyframes bounce {
@@ -113,6 +124,7 @@ section.sobre nav ul {
 .btns {
     text-align: center;
     margin-top: 50px;
+    
 }
 .efeito {
     border: none;
@@ -128,26 +140,32 @@ section.sobre nav ul {
     transition: all 400ms ease;
 }
 .efeito-mexer{
-    background:#9c0606;
+    background-color: rgba(255, 255, 255, 0.4);
+        opacity: 80%;
 }
 .efeito-mexer1 {
-    background: #9c0606;
+    background-color: rgba(255, 255, 255, 0.4);
+        opacity: 80%;
 }
 .efeito-mexer2 {
     margin-left: 240px;
-    background: #000000;
+    background-color: rgba(255, 255, 255, 0.4);
+    opacity: 80%;
 }
 .efeito-mexer3 {
     margin-left: 370px;
-    background: #000000;
+    background-color: rgba(255, 255, 255, 0.4);
+        opacity: 80%;
 }
 .efeito-mexer4 {
     margin-left: 380px;
-    background: #000000;
+    background-color: rgba(255, 255, 255, 0.4);
+        opacity: 80%;
 }
 .efeito-mexer5 {
     margin-left: 400px;
-    background: #000000;
+    background-color: rgba(255, 255, 255, 0.4);
+        opacity: 80%;
 }
 .efeito-mexer:hover{
     animation: bounce 1s;
@@ -168,13 +186,13 @@ section.sobre nav ul {
     animation: bounce 1s;
 }
 .terceiro h1{
-    font-family: 'Archivo Black', sans-serif;
+font-family: 'Bakbak One', cursive;
     font-size: 80px;
     color: rgb(255, 255, 255);
     text-align: center;
 }
 .terceiro h3{
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Bakbak One', cursive;
     font-size: 30px;
     color: #fff;
     text-align: center;
@@ -185,14 +203,13 @@ section.sobre nav ul {
 .containerBottom {
     display: flex;
 }
+
 .info{
     display: flex;
 }
 article{
-    background-color: #921a1b
-    
+    background-color:#be4c4c;
 }
-
 article>.info>div {
     margin-left: 50px;
     margin-top: 20px;
@@ -353,7 +370,6 @@ section>.composto>div {
     background-color: #0a94ca;
 }
 
-
 section>.composto>div#banda1{
     background-image: url("../imagens/reynolds.jpg");
 }
@@ -373,10 +389,117 @@ section>.composto>div#banda4 {
 section>.composto>div#banda5 {
     background-image: url("../imagens/ben.jpg");
 }
-form{
+section.nova{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 40vh;
+    background-image: url("../imagens/backForm.jpg");
 }
-.div#cima h1{
+.box{
+    font-family: 'Bakbak One', cursive;
+    display: flex;
+    width: 630px;
+}
+.box h2 {
+    text-align: center;
+}
+.w50{
+    width: 50%;
+    float: left;
+}
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(40px);
+        padding: 30px 40px;
+        width: 100%;
+        border-radius: 20px;
+}
+.form-box h2{
+    font-size: 30px;
+}
+.form-box p{
+    font-weight: bold;
+    color: #3d3d3d;
+}
+.form-box p a {
+    color: #FF008A;
+    text-decoration: none;
+}
+.form-box form{
+    margin: 20px 0;
+}
+form .input-group{
+    margin-bottom: 15px;
+}
+form .input-group label{
+    color: #3d3d3d;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+form .input-group input{
+    width: 90%;
+    height: 47px;
+    background-color: rgba(255,255,255,0.32);
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    padding: 15px;
+    font-size: 15px;
+    color: #616161;
+    transition: all 0.4s ease;
+}
+form .input-group input#nome{
+    width: 95%;
+    height: 130px;
+}
+form .input-group input:focus{
+    border-color: #b56464;
+
+}
+form .input-group button{
+    font-family: 'Bakbak One', cursive;
+    width: 95%;
+    height: 47px;
+    background: #b56464;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 15px;
     color: white;
+    cursor: pointer;
+    font-size: 16px;
 }
 
+footer{
+    background-color: rgba(255, 255, 255, 0.32);
+    display: flex;
+    width: 100%;
+    height: 90px;
+}
+footer h3 {
+    font-family: 'Bakbak One', cursive;
+    position: relative;
+    left: 90%;
+    display: inline-block;
+    margin: 2rem 1.5rem;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.menu2 {
+    display: flex;
+    align-items: center;
+}
+.menu2 a {
+    position: relative;
+    display: inline-block;
+    left: 70px;
+    margin: 0.8rem;
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.menu2 a:hover {
+    transform: scale(1.25, 1.25);
+}
+.input-group button:hover{
+    transform: scale(1.03, 1.03);
+}
