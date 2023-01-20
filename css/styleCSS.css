@@ -364,6 +364,10 @@ article>.containerBottom>div#n8 h2 {
     cursor: pointer;
 }
 
+section.segunda> h1{
+    color: #fff;
+    text-align: center;
+}
 .composto{
     display: flex;
     width: 1920px;
@@ -374,7 +378,7 @@ article>.containerBottom>div#n8 h2 {
 section>.composto>div {
     border-radius: 15%;
     margin-left: 55px;
-    margin-top: 40px;
+    margin-top: 170px;
     gap: 30px;
     width: 310px;
     height: 200px;
