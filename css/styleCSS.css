@@ -384,7 +384,7 @@ section>.composto>div {
 section>.composto>div#banda1{
     border-radius: 50% 20% / 10% 40%;
   
-    background-image: url("../imagens/reynolds.jpg");
+    background-image: url("../imagens/danRed.jpg");
 }
 section>.composto>div:hover{
     transform: scale(1.04, 1.04);
@@ -392,7 +392,7 @@ section>.composto>div:hover{
 section>.composto>div#banda2 {
    
     border-radius: 50% 20% / 10% 40%;
-    background-image: url("../imagens/ben.jpg");
+    background-image: url("../imagens/benYellow.jpg");
    
 }
 section>.composto>div#banda3{
@@ -408,11 +408,11 @@ section>.composto>div#banda3 h1{
 }
 section>.composto>div#banda4 {
     border-radius: 50% 20% / 10% 40%;
-    background-image: url("../imagens/guitarra.jpg");
+    background-image: url("../imagens/wayneCiano.jpg");
 }
 section>.composto>div#banda5 {
     border-radius: 50% 20% / 10% 40%;
-    background-image: url("../imagens/batera.jpg");
+    background-image: url("../imagens/platzmanRoxo.jpg");
     
 }
 section.nova{
