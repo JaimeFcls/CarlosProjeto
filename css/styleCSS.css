@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Bakbak+One&family=Moon+Dance&family=Rowdies:wght@700&family=Rubik:ital,wght@1,900&family=Secular+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Moon+Dance&family=Rowdies:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Poppins&family=Roboto:wght@300&display=swap');
@@ -65,7 +66,7 @@ header{
 nav.sobre {
     width: 1920px;
     height: 400px;
-    background-image: url('../imagens/background1.jpg');
+    background-image: url('../imagens/backgroundNAV.jpg');
     background-repeat: no-repeat;
     background-position: right;
     background-position-x: 120%;
@@ -78,7 +79,7 @@ nav.sobre {
 }
 nav.sobre h1{
     color: rgb(255, 255, 255);
-    font-family: 'Anton', sans-serif;
+    font-family: 'Secular One', sans-serif;
     font-size: 100px;
     padding: 2%;
     text-align: center;
@@ -90,6 +91,10 @@ nav.sobre h2 {
     font-size: 40px;
     text-align: center;
     margin-top: -3%;
+    opacity: 0%;
+}
+nav.sobre:hover h2{
+    opacity: 100%;
 }
 
 nav.sobre ul li{
@@ -290,15 +295,19 @@ article>.containerTop>div {
     background-color: #0a94ca;
 }
 article>.containerTop>div#n1 {
+    border-radius: 25% 10%;
     background-image: url('../imagens/believer.jpg');
 }
 article>.containerTop>div#n2 {
+    border-radius: 10% 25%;
     background-image: url('../imagens/bones.jpg');
 }
 article>.containerTop>div#n3 {
+    border-radius: 25% 10%;
     background-image: url('../imagens/sharks.jpg');
 }
 article>.containerTop>div#n4 {
+    border-radius: 10% 25%;
     background-image: url('../imagens/enemy.jpg');
 }
 article>.containerBottom>div {
@@ -310,6 +319,7 @@ article>.containerBottom>div {
     background-color: #020202;
 }
 article>.containerBottom>div#n5 {
+  
     background-image: url('../imagens/backBeliever.jpg');
     
 }
@@ -326,6 +336,7 @@ article>.containerBottom>div#n8 {
     
 }
 article>.containerBottom>div#n5 h2{
+
     font-family: 'Rowdies', cursive;
     color: aliceblue;
     text-align: center;
@@ -357,9 +368,9 @@ article>.containerBottom>div#n8 h2 {
     display: flex;
     width: 1920px;
     height: 1080px;
-    background-image: url("../imagens/wallpaper2.jpg");
-
+    background-image: url("../imagens/back3.jpg");
 }
+
 section>.composto>div {
     border-radius: 15%;
     margin-left: 55px;
@@ -371,23 +382,38 @@ section>.composto>div {
 }
 
 section>.composto>div#banda1{
+    border-radius: 50% 20% / 10% 40%;
+  
     background-image: url("../imagens/reynolds.jpg");
 }
-section>.composto>div#banda2 {
-    background-image: url("../imagens/batera.jpg");
+section>.composto>div:hover{
+    transform: scale(1.04, 1.04);
 }
-section>.composto>div#banda3 {
-   background-image: url("../imagens/wallpaper2pequeno.jpg");
+section>.composto>div#banda2 {
+   
+    border-radius: 50% 20% / 10% 40%;
+    background-image: url("../imagens/ben.jpg");
+   
+}
+section>.composto>div#banda3{
+   opacity: 100%;
+   background-color: #131010;
 }
 section>.composto>div#banda3 h1{
-    font-family: 'Rowdies', cursive;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+    font-size: 80px;
     text-align: center;
+    margin-top: 60px;
 }
 section>.composto>div#banda4 {
+    border-radius: 50% 20% / 10% 40%;
     background-image: url("../imagens/guitarra.jpg");
 }
 section>.composto>div#banda5 {
-    background-image: url("../imagens/ben.jpg");
+    border-radius: 50% 20% / 10% 40%;
+    background-image: url("../imagens/batera.jpg");
+    
 }
 section.nova{
     display: flex;
@@ -463,7 +489,7 @@ form .input-group button{
     font-family: 'Bakbak One', cursive;
     width: 95%;
     height: 47px;
-    background: #b56464;
+    background: #be4c4c;
     border-radius: 20px;
     outline: none;
     margin-top: 15px;
@@ -473,7 +499,7 @@ form .input-group button{
 }
 
 footer{
-    background-color: rgba(255, 255, 255, 0.32);
+    background-color: #be4c4c;
     display: flex;
     width: 100%;
     height: 90px;
